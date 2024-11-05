@@ -1,0 +1,45 @@
+.homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #f8f9fa, #e9ecef);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero {
+    background: #d7f7ba;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 500px;
+  }
+  
+  h1 {
+    color: #070000;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: #555;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .view-products-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .view-products-button:hover {
+    background-color: #0056b3;
+  }
+  
